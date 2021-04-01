@@ -27,7 +27,7 @@ function App() {
       }
     });
     return unsubscribe;
-  }, [dispatch]);
+  }, [dispatch]); 
   return (
     <div className="app">
       <Router>

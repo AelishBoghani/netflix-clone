@@ -1,9 +1,8 @@
-.plansScreen__plan {
-    /* display: flex;
-    flex-direction: row wrap; */
+/* .plansScreen__plan {
+    
     gap: 1rem;
     margin: 20px;
-    /* margin-top: 0; */
+   
     background: white;
     border-radius: 0.5rem;
     flex: 0.25;
@@ -13,7 +12,7 @@
     display: flex;
     flex-flow: column;
     padding: 10px 20px;
-    /* max-width: 360px; */
+   
     transition: all 0.2s;
     border-radius: 0.5rem;
     place-items: center;
@@ -40,7 +39,7 @@
   }
   
   .plansScreen__info .product__price {
-    /* margin-top: auto; */
+ 
     font-weight: 700;
     font-size: 1.15rem;
   }
@@ -56,4 +55,4 @@
   .plansScreen__info .product__name {
     font-size: 1.2rem;
    
-  }
+  } */
