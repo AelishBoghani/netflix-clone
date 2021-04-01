@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import Header from "./Header";
-import FeaturedMovie from "./FeaturedMovie";
-import List from "./List";
-import BigList from "./BigList";
-import Results from "./Results";
-import Loading from "./Loading";
+import Header from "../Header";
+import FeaturedMovie from "../FeaturedMovie";
+import List from "../List";
+import BigList from "../BigList";
+import Results from "../Results";
+import Loading from "../Loading";
 import "./HomeScreen.css";
 import axios from '../axios';
-import requests, { imageLargeBase, imageBase, fetchMovie, fetchTV, fetchSearchString, fetchRecommendedMovies, fetchRecommendedTV, fetchSimilarMovies, fetchSimilarTV } from './api';
+import requests, { imageLargeBase, imageBase, fetchMovie, fetchTV, fetchSearchString, fetchRecommendedMovies, fetchRecommendedTV, fetchSimilarMovies, fetchSimilarTV } from '../api';
 
 const listOneInit = {
 	title: "Latest & Trending Movies",
@@ -20,7 +20,7 @@ const listOneInit = {
 	type: 'tv',
   }
 
-function HomeScreen() {
+function HomeScreen() { 
   const [topRatedMovies, setTopRatedMovies] = useState([]);
   const [featuredMovie, setFeaturedMovie] = useState([]);
   const [featTitle, setFeatTitle] = useState("Today's Featured Film");

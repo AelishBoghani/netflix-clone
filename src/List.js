@@ -6,7 +6,7 @@ import TextTruncate from "react-text-truncate";
 import defaultImage from "./assets/default.jpg";
 import numeral from "numeral";
 import "./List.css";
-import axios from '../axios';
+import axios from './axios';
 import requests, { imageBase } from './api';
 
 function List({ setMovieId, setLoading }) {

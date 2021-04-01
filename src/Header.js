@@ -2,10 +2,10 @@ import React, { useState, useRef } from 'react';
 import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
 import ChevronLeftRoundedIcon from "@material-ui/icons/ChevronLeftRounded";
 import "./Header.css";
-import axios from '../axios';
+import axios from './axios';
 import requests, { imageBase, fetchMovie, fetchTV, fetchSearchString, setLoading } from './api';
 import NFLogo from './assets/logo.png';
-import {auth} from '../firebase'
+import {auth} from './firebase'
 
 function Header({ setSearchResult, setLoading, popularVisible }) {
   const [input, setInput] = useState('');
